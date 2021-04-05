@@ -4,9 +4,9 @@
 
 void setup()
 {
-pinMode(trigPin, OUTPUT); //FOR ONE ULTRASONIC SENSOR ONLY
+pinMode(trigPin, OUTPUT);
 pinMode(echoPin, INPUT);
-pinModse(buzzPin,OUTPUT);
+pinMode(buzzPin,OUTPUT);
 }
 
 void loop()
